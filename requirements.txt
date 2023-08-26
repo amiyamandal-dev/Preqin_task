@@ -1,0 +1,10 @@
+fastapi~=0.102.0
+pydantic~=1.10.12
+numpy~=1.25.2
+ray~=2.6.3
+loguru~=0.7.0
+redis~=5.0.0
+python-dotenv~=1.0.0
+orjson
+uvicorn
+poetry
