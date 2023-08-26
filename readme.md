@@ -24,19 +24,16 @@ Unit tests, integration tests, and possibly end-to-end tests should be written t
 Providing clear API documentation (through technologies like Swagger) assists other developers in understanding how to successfully use your API. FastAPI already includes this functionality.
 
 #### 9. Code Organisation
-In a larger application, your code would be modularized, with the API logic, data processing, error handling, and other components separated.
+In a larger application, our code would be modularized, with the API logic, data processing, error handling, and other components separated.
 
-#### 10. API Versioning
-Consider versioning your API to ensure backward compatibility as it evolves.
+#### 10. Monitoring
+Using monitoring tools allows we to keep track of the API's performance, usage, and any issues. We can use Datadog or Sentry to monitor it, but it will cost us money.
 
-#### 11. Monitoring
-Using monitoring tools allows you to keep track of the API's performance, usage, and any issues. We can use Datadog or Sentry to monitor it, but it will cost us money.
+#### 11. Containerization
+Using Docker or comparable tools, we can package your program and its dependencies, ensuring consistent deployment across several environments. Docker and docker-compose have been implemented and can be deployed in any environment.
 
-#### 12. Containerization
-Using Docker or comparable tools, you can package your program and its dependencies, ensuring consistent deployment across several environments. Docker and docker-compose have been implemented and can be deployed in any environment.
-
-#### 13. Continuous Integration and Continuous Deployment Pipeline
+#### 12. Continuous Integration and Continuous Deployment Pipeline
 Create a CI/CD pipeline for automated testing and deployment. We can implement GitHub Actions or Jenkins, however this requires a significant amount of resources.
 
-#### 14. Rate Limiting
+#### 13. Rate Limiting
 Use rate limiting to prevent API misuse. We can use the SlowAPI package to minimize server calls.
